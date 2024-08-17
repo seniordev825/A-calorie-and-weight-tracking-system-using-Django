@@ -1,0 +1,47 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pre-commit = "*"
+
+[packages]
+django = "*"
+django-safedelete = "*"
+django-crispy-forms = "*"
+django-bootstrap-datepicker-plus = "*"
+install = "*"
+django-activity-stream = "*"
+pandas = "*"
+django-heroku = "*"
+gunicorn = "*"
+statsmodels = "*"
+django-chartjs = "*"
+stripe = "*"
+django-measurement = "*"
+myfitnesspal = {ref = "master", git = "https://github.com/kb1900/python-myfitnesspal.git"}
+django-cryptography = "*"
+pinax-referrals = "*"
+cloudinary = "*"
+django-allauth = "*"
+django-sslserver = "*"
+django-friendship = "*"
+sentry-sdk = "*"
+django-debug-toolbar = "*"
+django-request = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+django-axes = "*"
+django-cache-url = "*"
+psycopg2-binary = "*"
+pylibmc = "*"
+django-multifactor = "*"
+django-decorator-include = "*"
+pinax-announcements = "*"
+pinax-messages = "*"
+pinax-templates = "*"
+django-cockroachdb = "*"
+
+[requires]
+python_version = "3.7"
